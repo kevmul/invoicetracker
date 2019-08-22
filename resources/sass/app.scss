@@ -1,0 +1,22 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+@import './variables';
+
+// Import the rest of Bulma
+@import "bulma";
+
+html,
+body,
+#app,
+.wrapper,
+.main,
+.container,
+.duo {
+    height: 100%;
+}
+
+
+@import 'Components/All';
+@import 'Layouts/All';
+@import 'Helpers/All';
